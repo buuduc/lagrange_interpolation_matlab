@@ -1,4 +1,4 @@
-% bai vi du giai figure 24.6
+% giai bai 24.7
 
 clc 
 clear all 
@@ -20,6 +20,8 @@ Q=subs(dv_dt,t,T)  % subs(dathuc,tenbien,gia tri)
 
 %% ve do thi 
 hold on
+xlabel('t')
+ylabel('V')
 plot(T,V,'Color','red') %do thi ham noi suy lagrange V(t)
 plot(T,Q,'Color','blue') %do thi dao ham bac nhat toc do dong chay Q
 hold off

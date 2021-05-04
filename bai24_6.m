@@ -32,6 +32,8 @@ result=Massflux*S*t
 
 %% ve do thi 
 hold on
+xlabel('x')
+ylabel('c')
 plot(X,C,'Color','red') %do thi ham noi suy lagrange
 plot(X,subs(dc_dx,x,X),'Color','blue') %do thi dao ham bac nhat
 hold off
