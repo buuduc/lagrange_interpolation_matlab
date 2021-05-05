@@ -5,8 +5,8 @@ clear all
 close all 
 %% thong so dau vao
 syms x
-X=[0 5 10 15 20 25 30]
-C=[0 9 13 14 10.5 12 5]
+X=[0 1 3]
+C=[.06 .32 .6]*10^-6
 %% ket qua
 fprintf('ham c(x) su dung noi suy da thuc lagrange la: ')
 cx=lagrange(x,X,C) %lagrange(tenbien,mangX,mangFX)

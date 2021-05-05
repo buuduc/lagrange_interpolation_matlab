@@ -31,7 +31,9 @@ FX5=subs(ft,x,5)  % subs(dathuc,tenbien,gia tri)
 
 %% ve do thi 
 hold on
-plot(X,FX,'Color','red') %do thi ham noi suy lagrange
+xlabel('x')
+ylabel('fx')
+plot(X,subs(ft,x,X),'Color','red') %do thi ham noi suy lagrange
 plot(X,subs(diff1,x,X),'Color','blue') %do thi dao ham bac nhat
 plot(X,subs(diff2,x,X),'Color','green')% do thi dao ham bac hai 
 hold off
