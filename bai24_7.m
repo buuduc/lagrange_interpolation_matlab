@@ -15,7 +15,7 @@ fprintf('da thuc xap xi dao ham bac nhat dv/dt co dang: ')
 dv_dt=diff(v,t,1) % diff(dathuc, biendaoham, capdaoham)
 
 fprintf('tuong duong voi t, ta co cac toc do dong chay Q tuong duong: ')
-Q=subs(dv_dt,t,T)  % subs(dathuc,tenbien,gia tri)
+Q=double(subs(dv_dt,t,T))  % subs(dathuc,tenbien,gia tri)
 
 
 %% ve do thi 

@@ -14,8 +14,7 @@ sigma=lagrange(epsilon,EPSILON,SIGMA) %lagrange(tenbien,mangX,mangFX))
 fprintf('da thuc xap xi dao ham bac nhat dv/dt co dang: ')
 ds_de=diff(sigma,epsilon,1) % diff(dathuc, biendaoham, capdaoham)
 
-% fprintf('tuong duong voi t, ta co cac toc do dong chay Q tuong duong: ')
-% Q=subs(dv_dt,t,T)  % subs(dathuc,tenbien,gia tri)
+
 
 
 %% ve do thi 

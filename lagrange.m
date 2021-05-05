@@ -24,4 +24,6 @@ for i = 1:lengX
     end
     y=y+element;
 end
-y = expand(y);
+if isa(y,'sym')
+    y = expand(y);
+end
