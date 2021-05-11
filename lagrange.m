@@ -14,8 +14,7 @@ for i = 1:lengX
     yi=Y(i);
     xi=X(i);
     element=Y(i);
-    gg=1;
-    xx=1;
+    gg=1;    xx=1;
     for j=1:lengX
         if i ~=j
             xj=X(j);

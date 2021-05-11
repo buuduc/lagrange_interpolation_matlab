@@ -11,7 +11,7 @@ SIGMA=[87.8 96.6 176 263 350 569 833 1227 1623 2105 2677  3378  4257 ] %*10^3
 fprintf('ham sigma(epsilon) su dung noi suy da thuc lagrange la: ')
 sigma=lagrange(epsilon,EPSILON,SIGMA) %lagrange(tenbien,mangX,mangFX))
 
-fprintf('da thuc xap xi dao ham bac nhat dv/dt co dang: ')
+fprintf('da thuc xap xi dao ham bac nhat ds/de co dang: ')
 ds_de=diff(sigma,epsilon,1) % diff(dathuc, biendaoham, capdaoham)
 
 
